@@ -29,18 +29,61 @@
             <a href="html/authors.html"><i class="fa fa-user"></i></a>
         </li>
     </ul>
-    <div class="content">
-        <hr>
+    <div class="content content-padding">
         <h1 style="text-align: center;">Web Development - Tutorial</h1>
-        <hr>
+        <hr class="seperator">
         <img style="width: 60%; max-width: 800px; display: block; margin-left: auto; margin-right: auto;"
             src="https://rochester.kidsoutandabout.com/sites/default/files/html_css_javascript_1.jpeg"
             alt="https://rochester.kidsoutandabout.com/sites/default/files/html_css_javascript_1.jpeg">
-        <hr>
+        <hr class="seperator">
         <h2>Idea</h2>
-        <p>Die Webseite soll ein Mini-Tutorial für die Web-Programmierung sein.<br>
-        Es sollen Grundkonzepte in <a href="html/html.html">HTML</a>, <a href="html/css.html">CSS</a> und <a href="html/_dummy/js.html">Javascript</a> vermittelt werden.</brk></p>
-        <p>Über das Ribbon-Control am Kopf der Seite sind alle Bereiche leicht erreichbar.</p>
+        <p>
+            This project is going to be the framework for a web-development-tutorial.<br>
+            <br>
+            The website currently has just a few pages about <a href="html/html.html">HTML</a> and <a href="html/css.html">CSS</a>, but it is build to be easily extended.<br>
+            The header as well as the sidebar in the html section already hold dummy pages to show the potential of this guide.<br>
+            <br>
+            Speaking of those elements, the user can access different parts of the tutorial via the header or the sidebar within a language.
+        </p>
+        <br>
+        <hr class="seperator">
+        <h2>Development & Troubleshooting</h2>
+        <br>
+        <h3>index.html</h3>
+        <p>
+            Every webpage starts with the <span class="mark">index.html</span><br>
+            Albeit the section you're currently reading was added bit by bit later on in the development.
+        </p>
+        <br>
+        <h3>Header & sidebar</h3>
+        <p>
+            The header was up next being the first big element on the website.<br>
+            The biggest problem creating it, was the arrangement of the elements (icons & texts) and the <span class="mark">text-align</span> and <span class="mark">vertical-align</span> within them. Building the sidebar was very similar.<br>
+            <br>
+            A small issue was with <span class="mark">position: fixed</span> of both elements. First working with <span class="mark">position: sticky</span> lead to a few overlaps and ugly behaviours.
+        </p>
+        <br>
+        <h3>Content</h3>
+        <p>
+            Due to wrong/bad css the header was always just as big as the biggest child it contained, which caused ugly effects later on.<br>
+            Another funny bug was content scrolling over the fixed header. This was fixed with a <span class="mark">z-index</span>.
+        </p>
+        <br>
+        <h3>Dummy Pages</h3>
+        <p>
+            Dummy Pages were added to give the illusion of a much more advanced website.<br>
+            I made the mistake of copy pasting the first build. When I wanted to change something a few hours later, I had to copy all of the content again.
+        </p>
+        <br>
+        <h3>Authors Page</h3>
+        <p>weird arrangement of table (authors page)</p>
+        <br>
+        <h3>Responsive Design</h3>
+        <br>
+       
+        <h3>Refactoring</h3>
+        <p>wrong paths when directory refactoring</p>
+        
     </div>
 </body>
 </html>

@@ -1,3 +1,7 @@
+.seperator {
+    border:solid lightgray 1px;
+}
+
 .content {
     position: absolute;
     width: 100%;
@@ -6,18 +10,23 @@
     z-index: 0;
 }
 
-.content-html {
-    padding: 70px 20px 0px  190px;
-}
-
-a  {
+a {
     color: cornflowerblue;
     font-weight: bold;
     text-decoration: none;
 }
 
+.content-padding {
+    padding: 70px 20px 20px 20px;
+}
+
 .with-sidebar {
-    padding-left: 170px;
+    padding-left: 190px;
+}
+
+.mark {
+    color: orangered;
+    background-color: ghostwhite;
 }
 
 button {
