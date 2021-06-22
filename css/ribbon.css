@@ -1,0 +1,53 @@
+ul.ribbon {
+    z-index: 1;
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 50px;
+    line-height: 47px;
+    text-align: center;
+    background-color: teal;
+    border-bottom: solid gray 3px;
+}
+
+li.ribbonElement {
+    height: 47px;
+    list-style-type: none;
+    color: white;
+}
+
+li.ribbonText {
+    font-size: 1.3em;
+    min-width: 100px;
+}
+
+li.ribbonIcon {
+    font-size: 2em;
+    min-width: 75px;
+}
+
+li.left {
+    float: left;
+}
+li.right {
+    float: right;
+}
+
+li.ribbonIcon i:hover {
+    color: mediumaquamarine;
+}
+
+li.ribbonText:not(.highlight):hover a {
+    color: mediumaquamarine;
+}
+
+li.highlight {
+    background-color: mediumaquamarine;
+}
+
+.ribbon a  {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}

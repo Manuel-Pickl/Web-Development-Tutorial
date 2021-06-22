@@ -1,0 +1,9 @@
+.not-implemented img {
+    width: 50%;
+    max-width: 300px;
+    min-width: 150px;
+}
+
+.not-implemented p {
+    text-align: center;
+}

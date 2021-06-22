@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Introduction</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/ribbon.css">
+    <link rel="stylesheet" href="../../css/sidebar.css">
+    <link rel="stylesheet" href="../../css/content.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <ul class="ribbon">
+        <li class="ribbonElement ribbonIcon left">
+            <a href="../../index.html"><i class="fa fa-home"></i></a>
+        </li>
+        <li class="ribbonElement ribbonText left">
+            <a href="../html.html">HTML</a>
+        </li>
+        <li class="ribbonElement ribbonText left highlight">
+            <a href="../css.html">CSS</a>
+        </li>
+        <li class="ribbonElement ribbonText left">
+            <a href="../_dummy/js.html">Javascript</a>
+        </li>
+        <li class="ribbonElement ribbonIcon right">
+            <a href="../authors.html"><i class="fa fa-user"></i></a>
+        </li>
+    </ul>
+    <div class="sidebar">
+        <a class="highlight" href="introduction.html">Introduction</a>
+        <a href="responsive.html">Responsive Design</a>
+        <a href="selectors.html">Selectors<a></a>
+    </div>
+    <div class="content content-html">
+        <h1>CSS Introduction</h1>
+        <hr>
+        <p>
+            <img style="position: relative; top: 50%; height: 40px"
+                src="data:image/png;base64,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"
+                alt="data:image/png;base64,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">
+                CSS is the language we use to style a Web page.
+        </p>
+        <hr>
+        <h2>What is CSS?</h2>
+        <ul style="margin-left: 30px">
+            <li>CSS stands for Cascading Style Sheets</li>
+            <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+            <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+            <li>External stylesheets are stored in CSS files</li>
+            </ul>
+        <hr>
+        <a href="https://www.w3schools.com/css/css_intro.asp" class="quote">~W3Schools</a>
+        <h2>Summary</h2>
+        <img style="float: right; width: 200px; margin: 30px; margin-right: 0; margin-top: 0;"
+            src="https://pics.freeicons.io/uploads/icons/png/16738931111536080149-512.png"
+            alt="https://pics.freeicons.io/uploads/icons/png/16738931111536080149-512.png">
+        <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]</p>
+        <br>
+        <p>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
+        <br>
+        <p>Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4]</p>
+        <br>
+        <p>The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.</p>
+        <br>
+        <p>The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5]</p>
+        <br>
+        <p>In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL. </p>
+        <hr>
+        <a href="https://en.wikipedia.org/wiki/CSS" class="quote">~Wikipedia</a>
+        <button onclick="location.href='responsive.html'">Next Chapter</button>
+        <br><br>
+    </div>
+</body>
+</html>

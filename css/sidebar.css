@@ -1,0 +1,28 @@
+.sidebar {
+    z-index: 1;
+    border-right: solid gray 3px;
+    background-color: ghostwhite;
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    top: 50px;
+    font-size: 1.3em;
+    padding: 15px;
+    padding-bottom: 65px;
+    overflow-y: auto;
+}
+
+.sidebar a  {
+    display: block;
+    padding-top: 2px;
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sidebar .highlight {
+    color: mediumaquamarine;
+}
+.sidebar a:hover {
+    color: mediumaquamarine;
+}
