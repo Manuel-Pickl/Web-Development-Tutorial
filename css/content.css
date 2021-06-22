@@ -1,4 +1,4 @@
-.seperator {
+.separator {
     border:solid lightgray 1px;
 }
 
@@ -20,8 +20,12 @@ a {
     padding: 70px 20px 20px 20px;
 }
 
-.with-sidebar {
+.sidebar-on-left {
     padding-left: 190px;
+}
+
+.sidebar-on-right {
+    padding-right: 320px;
 }
 
 .mark {
