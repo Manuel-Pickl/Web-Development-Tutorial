@@ -1,9 +1,9 @@
 .separator {
-    border:solid lightgray 1px;
+    border: solid lightgray 1px;
 }
 
 .content {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     padding-top: 50px;
@@ -20,12 +20,22 @@ a {
     padding: 70px 20px 20px 20px;
 }
 
-.sidebar-on-left {
-    padding-left: 190px;
+/* smartphone */
+@media only screen and (max-width: 600px) {
+    .sidebar-on-left { padding-left: 10px; }
+    .sidebar-on-right { padding-right: 10px; }
 }
 
-.sidebar-on-right {
-    padding-right: 320px;
+/* tablet / small desktop */
+@media only screen and (min-width: 600px) {
+    .sidebar-on-left { padding-left: 140px; }
+    .sidebar-on-right { padding-right: 115px; }
+}
+
+/* desktop */
+@media only screen and (min-width: 1200px) {
+    .sidebar-on-left { padding-left: 200px; }
+    .sidebar-on-right { padding-right: 320px; }
 }
 
 .mark {
