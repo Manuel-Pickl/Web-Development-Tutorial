@@ -17,25 +17,38 @@ a {
 }
 
 .content-padding {
-    padding: 70px 20px 20px 20px;
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
 
 /* smartphone */
 @media only screen and (max-width: 600px) {
-    .sidebar-on-left { padding-left: 10px; }
-    .sidebar-on-right { padding-right: 10px; }
+    .content-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sidebar-on-left { padding-left: 0; }
+    .sidebar-on-right { padding-right: 0; }
 }
 
 /* tablet / small desktop */
 @media only screen and (min-width: 600px) {
-    .sidebar-on-left { padding-left: 140px; }
-    .sidebar-on-right { padding-right: 115px; }
+    .content-padding {
+        padding-left: 140px;
+        padding-right: 115px;
+    }
+    .sidebar-on-left { padding-left: 120px; }
+    .sidebar-on-right { padding-right: 95px; }
 }
 
 /* desktop */
 @media only screen and (min-width: 1200px) {
-    .sidebar-on-left { padding-left: 200px; }
-    .sidebar-on-right { padding-right: 320px; }
+    .content-padding {
+        padding-left: 200px;
+        padding-right: 320px;
+    }
+    .sidebar-on-left { padding-left: 180px; }
+    .sidebar-on-right { padding-right: 300px; }
 }
 
 .mark {
