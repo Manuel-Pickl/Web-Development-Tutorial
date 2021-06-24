@@ -69,7 +69,7 @@ RESPONSIVE
 @media only screen and (max-width: 600px) {
     .sidebar {
         position: relative;
-        padding: 0;
+        padding: 10px 0px;
         text-align: center;
     }
     .sidenav {

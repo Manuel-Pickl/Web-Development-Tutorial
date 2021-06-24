@@ -30,12 +30,24 @@
             <a href="html/authors.html"><i class="fa fa-user"></i></a>
         </li>
     </ul>
-    <div style="padding: 50px" class="content">
-        <h1 style="text-align: center;">Web Development - Tutorial</h1>
+    <div class="content index">
+        <h1>Web Development - Tutorial</h1>
         <hr class="separator">
-        <img style="width: 100%; max-width: 800px; display: block; margin-left: auto; margin-right: auto;"
-            src="https://rochester.kidsoutandabout.com/sites/default/files/html_css_javascript_1.jpeg"
-            alt="https://rochester.kidsoutandabout.com/sites/default/files/html_css_javascript_1.jpeg">
+        <div>
+            <a href="html/css.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png"
+                alt="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png">
+            </a>
+            <a href="html/html.html">
+                <img  style="margin: 0 3%; padding-top: 8%;"
+                    src="https://www.w3schools.com/whatis/img_html.jpg"
+                    alt="https://www.w3schools.com/whatis/img_html.jpg">
+            </a>
+            <a href="html/_dummy/js.html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/397px-Javascript-shield.svg.png"
+                    alt="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/397px-Javascript-shield.svg.png">
+            </a>
+        </div>
         <hr class="separator">
         <h2>Idea</h2>
         <p>
@@ -56,10 +68,10 @@
             Albeit the section you're currently reading was added bit by bit later on in the development.
         </p>
         <br>
-        <h3>Header & sidebar</h3>
+        <h3>Header & sidenav</h3>
         <p>
             The header was up next being the first big element on the website.<br>
-            The biggest problem creating it, was the arrangement of the elements (icons & texts) and the <span class="mark">text-align</span> and <span class="mark">vertical-align</span> within them. Building the sidebar was very similar.<br>
+            The biggest problem creating it, was the arrangement of the elements (icons & texts) and the <span class="mark">text-align</span> and <span class="mark">vertical-align</span> within them. Building the sidenav was very similar.<br>
             <br>
             A small issue was with <span class="mark">position: fixed</span> of both elements. First working with <span class="mark">position: sticky</span> lead to a few overlaps and ugly behaviours.
         </p>
@@ -76,13 +88,22 @@
             I made the mistake of copy pasting the first build. When I wanted to change something a few hours later, I had to copy all of the content again.
         </p>
         <br>
+        <h3>Infopanel</h3>
+        <p>
+            Stretching the website horizontally made it look a bit empty, so I added an infopanel on the right.<br>
+            I used a lot of code from the sidenav but that needed a lot of refactoring. The panel holds information about social links and another project of mine for '<a href="https://github.com/HansHar/COVID-19-Vaccination">Informationsvisualisierung</a>'.
+        </p>
+        <br>
+        <h3>Responsive Design</h3>
+        <p>
+            At this point I already created a Github repository for the code to be on the safe side and get a version control too.<br>
+            So what I did was to open the website on my phone just to realize that it was a complete mess.<br>
+            I made the header, sidenav and the infopanel responsive, as well as some images on the sub pages.
+        </p>
+        <br>
         <h3>Authors Page</h3>
         <p>weird arrangement of table (authors page)</p>
         <br>
-        <h3>Responsive Design</h3>
-        <br>
-        <h3>Refactoring</h3>
-        <p>wrong paths when directory refactoring</p>
         <hr class="separator">
     </div>
 </body>

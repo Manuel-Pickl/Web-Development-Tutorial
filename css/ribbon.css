@@ -1,8 +1,6 @@
 ul.ribbon {
     z-index: 2;
     position: fixed;
-    margin: 0%;
-    padding: 0%;
     width: 100%;
     height: 50px;
     text-align: center;
@@ -18,7 +16,6 @@ li.ribbonElement {
 
 li.ribbonText {
     font-size: 1.3em;
-    min-width: 100px;
 }
 
 li.ribbonIcon {
@@ -54,4 +51,14 @@ li.highlight {
     color: white;
     font-weight: bold;
     text-decoration: none;
+}
+
+/* smartphone */
+@media only screen and (max-width: 600px) {
+    li.ribbonElement { padding: 5px; }
+}
+
+/* tablet / (small) desktop */
+@media only screen and (min-width: 600px) {
+    li.ribbonText { min-width: 100px; }
 }

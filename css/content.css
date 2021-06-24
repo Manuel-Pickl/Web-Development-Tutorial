@@ -1,5 +1,35 @@
+/*
+GENERAL
+*/
+
 .separator {
     border: solid lightgray 1px;
+}
+
+a {
+    color: cornflowerblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mark {
+    color: orangered;
+    background-color: ghostwhite;
+}
+
+.quote {
+    float:right;
+    margin-right: 20px;
+    font-size: 0.9em;
+    color: cornflowerblue;
+}
+
+button {
+    color: white;
+    background-color: mediumaquamarine;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .content {
@@ -10,16 +40,16 @@
     z-index: 0;
 }
 
-a {
-    color: cornflowerblue;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 .content-padding {
     padding-top: 70px;
     padding-bottom: 20px;
 }
+
+
+
+/*
+RESPONSIVE
+*/
 
 /* smartphone */
 @media only screen and (max-width: 600px) {
@@ -51,28 +81,24 @@ a {
     .sidebar-on-right { padding-right: 300px; }
 }
 
-.mark {
-    color: orangered;
-    background-color: ghostwhite;
+
+/* index page */
+.index {
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-button {
-    color: white;
-    background-color: mediumaquamarine;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
+.index h1 {
+    text-align: center;
 }
-
-.quote {
-    float:right;
-    margin-right: 20px;
-    font-size: 0.9em;
-    color: cornflowerblue;
+.index div {
+    max-width: 750px;
+    position: relative;
+    margin: 0 auto;
 }
-
-
-
+.index div img {
+    width: 30%;
+    margin-bottom: 6%;
+}
 
 
 
