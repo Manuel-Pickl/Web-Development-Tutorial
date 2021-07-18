@@ -1,0 +1,29 @@
+.content-authors {
+    text-align: center;
+    width: 100%;
+}
+
+.content-authors table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.content-authors td {
+    width: 10%;
+    height: 60px;
+}
+
+.person-image {
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-bottom: solid gray 2px;
+}
+
+.content-authors div {
+    height: 180px; /* rowspan="3" */
+    /*
+        height in % not working because
+        Firefox needs 300% & Chrome 100%
+    */    
+}
