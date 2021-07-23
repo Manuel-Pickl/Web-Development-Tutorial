@@ -1,3 +1,7 @@
+/*
+CSS FOR THE HEADER
+*/
+
 ul.ribbon {
     z-index: 2;
     position: fixed;
@@ -52,6 +56,10 @@ li.highlight {
     font-weight: bold;
     text-decoration: none;
 }
+
+/*
+RESPONSIVE
+*/
 
 /* smartphone */
 @media only screen and (max-width: 600px) {

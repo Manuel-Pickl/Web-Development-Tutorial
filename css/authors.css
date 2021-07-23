@@ -1,3 +1,6 @@
+/*
+ALL CSS PROPERTIES FOR THE AUTHORS PAGE
+*/
 .content-authors {
     text-align: center;
     width: 100%;
@@ -21,7 +24,7 @@
 }
 
 .content-authors div {
-    height: 180px; /* rowspan="3" */
+    height: 180px; /* matches 3 rows => rowspan="3" */
     /*
         height in % not working because
         Firefox needs 300% & Chrome 100%
